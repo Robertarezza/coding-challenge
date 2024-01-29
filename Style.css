@@ -1,0 +1,66 @@
+ body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+ body > div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+ header {
+    text-align: center;
+  }
+
+ img{
+    width: 20%;
+    height: 20%;
+  }
+
+  header > h1{
+    color:#39ff14;
+  }
+
+ #barra-verde {
+    background-color: #39ff14;
+    padding: 1%;
+  }
+
+  section > h2 {
+    display: inline-block;
+  }
+
+  .freccia:before {
+    content: "\2192";
+  }
+
+  #caricamento1{
+    background-color: orange;
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+  }
+
+  #caricamento2{
+    background-color: green;
+    width: 600px;
+    height: 40px;
+    border-radius: 15px;
+  }
+
+  #caricamento3{
+    background-color: #e52b50;
+    width: 165px;
+    height: 40px;
+    border-radius: 15px;
+  }
+
+  h3{
+    margin-bottom: 4px;
+  }
